@@ -500,4 +500,71 @@ function cardValue(card){
 
 }
 
+/*
+// Add new variables to track splits
+let player1Split = false;
+let player1SplitSum = 0;
+
+// Add a new event listener for the split button
+document.getElementById("split").addEventListener("click", split);
+
+function split() {
+    if (turn1 && !player1Split) {
+        // Split the hand if the two cards have the same value
+        //  check the values of the two cards in the player's hand, need to add this
+        // If they're the same, set player1Split to true and distribute the values between player1Sum and player1SplitSum
+
+        player1Split = true;
+        let cardImg = document.createElement("img");
+        let card = deck.pop();
+        cardImg.src = "./gifs/" +card+".gif";
+        let temp = cardValue(card);
+        if (temp == 11){
+            player1Ace =true;
+        }
+        document.getElementById("player1").append(cardImg); 
+        player1SplitSum = player1SplitSum+temp;
+    }
+}
+
+// Modify your hit function to handle split hands
+function hit() {
+    // If it's player 1's turn and they've split their hand, add the new card to their split hand instead
+    if (turn1 && player1Split) {
+        let cardImg = document.createElement("img");
+        let card = deck.pop();
+        cardImg.src = "./gifs/" +card+".gif";
+        let temp = cardValue(card);
+        if (temp == 11){
+            player1Ace =true;
+        }
+        document.getElementById("player1").append(cardImg); 
+        player1SplitSum = player1SplitSum+temp;
+
+        // do the same checks as before, but with player1SplitSum instead of player1Sum
+        // If player1SplitSum busts, end the turn for player 1's split hand by setting player1Split to false
+    } else {
+        // The rest of the old hit function goes here
+    }
+}
+
+
+function stay() {
+    if (turn1) {
+        if (player1Split) {
+            // If player 1 has a split hand, end the turn for their split hand
+            player1Split = false;
+        } else {
+            // If player 1 doesn't have a split hand, it's the end of their turn
+            turn1 = false;
+            turn2 = true;
+        }
+    }
+    // The rest of the old stay 
+}
+
+//then modify finish function to handle the split hand
+
+
+*/
 
