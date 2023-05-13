@@ -1,0 +1,189 @@
+body{
+    background-image: url('jackblack_background.jpg');
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    padding: 0 20px;
+}
+
+.dealer{
+    
+    height :75px;
+    width : 50x;
+    margin: 10px;
+    
+    /* border-radius: 5px; */
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 160px;
+    left: 640px;
+    position:absolute;
+
+}
+.dealer_header{
+    display: flex;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 160px;
+    left: 640px;
+    position:absolute;
+
+}
+
+.player1_header{
+    display: flex;
+    
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 400px;
+    left: 230px;
+    position:absolute;
+
+}
+
+.player1 {
+    
+    display: flex;
+    height :75px;
+    width : 50x;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 450px;
+    left: 230px;
+    position:absolute;
+}
+
+.player2_header{
+    display: flex;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 400px;
+    left: 640px;
+    position:absolute;
+
+}
+
+.player2 {
+    display: flex;
+    height :75px;
+    width : 50x;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 450px;
+    left: 640px;
+    position:absolute;
+}
+
+.player3_header{
+    display: flex;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 400px;
+    left: 1050px;
+    position:absolute;
+
+}
+.player3 {
+    display: flex;
+    height :75px;
+    width : 50x;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    top: 450px;
+    left: 1050px;
+    position:absolute;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    right: 50px;
+    top: 640px;
+    gap: 12px;
+}
+
+.card{
+    height :50px;
+    width : 20px;
+}
+
+#hiddencard{
+    margin-top:60px;
+    height :75px;
+    width : 50x;
+}
+#card{
+    margin-top:60px;
+    
+    height :75px;
+    width : 50x;
+}
+
+
+.highlight-player{
+    border-color: black;
+
+}
